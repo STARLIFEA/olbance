@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          burayı tekrar değiştirdim
+           2.kez burayı tekrar değiştirdim
         </a>
       </header>
     </div>
