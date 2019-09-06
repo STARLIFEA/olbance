@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import landscape from "./landscape.jpg";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-           2.kez burayı tekrar değiştirdim
-        </a>
-      </header>
+    <div>
+    <h1 className="logo">OLBANCE</h1>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">CHILDRIN</a></li>
+
+        </ul>
+        <hr/>
+        <div>
+            <img className="main-foto" src={landscape}/>
+        </div>
     </div>
   );
 }
